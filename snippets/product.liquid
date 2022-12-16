@@ -277,6 +277,64 @@
             {% endif %}
           {% endif %}
 
+          {% comment %} Product Pages Tabs {% endcomment %}
+           
+        <!--Start tab labels-->
+        <ul class="tabs">
+          <li>
+            <a class="" href="#tab1">
+              
+                Tab 1
+              
+            </a>
+          </li>
+          <li>
+            <a href="#tab2" class="active">
+              
+                Tab 2
+              
+            </a>
+          </li>
+          <li>
+            <a href="#tab3" class="">
+              
+                Tab 3
+              
+            </a>
+          </li>
+        </ul>
+        <!--Start tab content-->
+        <ul class="tabs-content">
+          <li class="" id="tab1" style="display: none;">
+            <div>
+            <p>Tab 1 content
+            <br>
+            Need a new paragraph? Try using Shift + Enter
+            <br><br>
+            </p>
+            </div>
+          </li>
+          <li id="tab2" class="active" style="display: block;">
+            <div>
+            <p>Tab 2 content
+            <br>
+            Need a new paragraph? Try using Shift + Enter
+            <br><br>
+            </p>
+            </div>
+          </li>
+          <li id="tab3" class="" style="display: none;">
+            <div>
+            <p>Tab 3 content
+            <br>
+            Need a new paragraph? Try using Shift + Enter
+            <br><br>
+            </p>
+            </div>
+          </li>
+        </ul>
+    
+          {% comment %} Product Pages Tabs {% endcomment %}
           {% if is_product_modal %}
             <a
               class="product__view-details"
