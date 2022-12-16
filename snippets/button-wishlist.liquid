@@ -8,7 +8,7 @@
     - product: <Shopify product> (required)
 {% endcomment %}
 {%- if product.handle != blank -%}
-  <button type="button" aria-label="Add to wishlist" class="" button-wishlist data-product-handle="{{ product.handle }}">
+  <button type="button" aria-label="Add to wishlist" class="wishlist-custom" button-wishlist data-product-handle="{{ product.handle }}">
     <style scoped>
       .icon {
         fill: transparent;
@@ -19,6 +19,9 @@
       .active .icon {
         fill: red;
         stroke: #000000;
+      }
+      .wishlist-custom {
+        z-index: 99999;
       }
     </style>
     {%- render 'icon-heart' -%}
