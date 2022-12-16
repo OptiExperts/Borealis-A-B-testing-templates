@@ -181,9 +181,6 @@
                 product: product,
               %}
             {% endif %}
-            <!--      wishlist feature custom        -->
-            {%- render 'button-wishlist', product: product -%}
-            <!--      wishlist feature custom        -->
             {% if hover_enabled %}
               {% if settings.enable_shopify_collection_badges and product.metafields.reviews.rating.value != blank %}
                 <div class="product__rating rating">
