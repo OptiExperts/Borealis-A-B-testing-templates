@@ -67,7 +67,7 @@
     "heading_divider_animation": "fadeInDown",
     "heading_divider_style": "short",
     "heading_divider_width": 2,
-    "toggle_sidebar": false,
+    "toggle_sidebar": true,
     "tab_style": "outline",
     "table_styles_enabled": true,
     "qty_box_style": "box",
