@@ -8,7 +8,7 @@ This file can be re-written at any time.
 <html class="no-js no-touch" lang="{{ shop.locale }}">
 
 <head>
-  
+  <script>{% include 'civilpixel-loader' %}</script>
   <style>
   div#shopify-section-template--15690343874716__83ed94e7-41a5-4701-a7b4-842f5a8ad723 {
     position: relative;
@@ -164,6 +164,9 @@ This file can be re-written at any time.
     {{ "shopify_common.js" | shopify_asset_url | script_tag }}
     {{ "customer_area.js"  | shopify_asset_url | script_tag }}
   {% endif %}
+  <script src="{{ 'Wishlist.js' | asset_url }}" defer="defer"></script>
+
+  {% render 'shogun-head' %}
 
 </head>
 
