@@ -12005,7 +12005,7 @@ shopify-payment-terms {
 .product-image__wrapper:hover .thumbnail-overlay__container .quick-shop__buttons,
 .product-image__wrapper:hover .thumbnail-overlay__container .quick-shop__info {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; 
 }
 @media only screen and (max-width: 798px) {
   .product-image__wrapper:hover .thumbnail-overlay__container {
