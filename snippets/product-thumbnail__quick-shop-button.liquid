@@ -55,7 +55,7 @@
     data-id="{{ product.id }}"
     data-url="{{ product.url }}"
   >
-    {{ 'collections.general.quick_shop' | t }}
+    {%  render 'quick-shop-custom' %} %}
   </span>
               <!--      wishlist feature custom        -->
               <span>{%- render 'button-wishlist', product: product -%}</span>
