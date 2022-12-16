@@ -26,11 +26,21 @@
             "button_label": "Shop now",
             "button_style": "button--primary"
           }
+        },
+        "7c5bae0d-8f48-4de5-9cf8-69a44d932301": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "Subscribe",
+            "newsletter_richtext": "<p>Sign up to get the 10% discount on every order<\/p>",
+            "display_first_name": true,
+            "display_last_name": true
+          }
         }
       },
       "block_order": [
         "f95b8911-7288-4e7c-af25-7d7430144f48",
-        "a3ab0835-2970-42b3-9b25-22a80431a6db"
+        "a3ab0835-2970-42b3-9b25-22a80431a6db",
+        "7c5bae0d-8f48-4de5-9cf8-69a44d932301"
       ],
       "settings": {
         "collection_breadcrumb": true,
