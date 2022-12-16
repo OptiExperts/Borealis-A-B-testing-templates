@@ -12,6 +12,30 @@
     },
     "sidebar": {
       "type": "product__sidebar",
+      "blocks": {
+        "eef72798-2a64-4504-b4a9-135c5e66bac2": {
+          "type": "page",
+          "settings": {
+            "page": "your-wish-list"
+          }
+        },
+        "0947b2c1-2221-4446-938b-98767b68454a": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#EEEEEE",
+            "promo_text": "#000000",
+            "promo_image": "shopify:\/\/shop_images\/IWC-Pilot-Watch-Chronograph-Edition-SFTI-Ref.-IW389004-002.jpg",
+            "richtext": "<p>New year sale 50% flat off on all straps<\/p>",
+            "promo_link": "shopify:\/\/collections\/premium-diver-watch-rubber-straps-1970s-style",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        }
+      },
+      "block_order": [
+        "eef72798-2a64-4504-b4a9-135c5e66bac2",
+        "0947b2c1-2221-4446-938b-98767b68454a"
+      ],
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20,
