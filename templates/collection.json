@@ -1,1 +1,72 @@
-{"sections":{"main":{"type":"collection__main","blocks":{"184a8dd9-eb30-4d67-a246-519bba700355":{"type":"menu","settings":{"menu":""}},"503eb36a-334d-4f41-8371-1769880a88d1":{"type":"menu","settings":{"menu":""}}},"block_order":["184a8dd9-eb30-4d67-a246-519bba700355","503eb36a-334d-4f41-8371-1769880a88d1"],"settings":{"collection_breadcrumb":true,"collection_tags":true,"collection_sort":true,"show_sidebar":false,"sidebar_position":"left","show_promo_banner":true,"image":"shopify:\/\/shop_images\/IWC-Pilot-Watch-Chronograph-Edition-SFTI-Ref.-IW389004-002.jpg","image_darken":true,"promo_title":"Wear luxurios watches in style","promo_text":"<p>Limited edition Watch Collection. <\/p>","banner_height":"small","align_height":true,"collection_height":400,"products_per_row":3,"mobile_products_per_row":"2","pagination_limit":48,"pagination_type":"basic_pagination","width":"standard","padding_top":40,"padding_bottom":40,"css_class":"","custom_css":""}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "collection__main",
+      "blocks": {
+        "184a8dd9-eb30-4d67-a246-519bba700355": {
+          "type": "menu",
+          "settings": {
+            "menu": ""
+          }
+        },
+        "503eb36a-334d-4f41-8371-1769880a88d1": {
+          "type": "menu",
+          "settings": {
+            "menu": ""
+          }
+        },
+        "81d8f431-4826-4aee-9d13-e1fca79d17ab": {
+          "type": "collection_list",
+          "settings": {
+            "title": "Collections"
+          }
+        },
+        "f95b8911-7288-4e7c-af25-7d7430144f48": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#EEEEEE",
+            "promo_text": "#000000",
+            "promo_image": "shopify:\/\/shop_images\/2568978004.webp",
+            "richtext": "<p>Use this area for promotional information.<\/p>",
+            "promo_link": "shopify:\/\/products\/borealis-bull-shark-v2-black-dial-red-ceramic-bezel-snow-flake-hands-date-miyota-9015",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        }
+      },
+      "block_order": [
+        "184a8dd9-eb30-4d67-a246-519bba700355",
+        "503eb36a-334d-4f41-8371-1769880a88d1",
+        "81d8f431-4826-4aee-9d13-e1fca79d17ab",
+        "f95b8911-7288-4e7c-af25-7d7430144f48"
+      ],
+      "settings": {
+        "collection_breadcrumb": true,
+        "collection_tags": true,
+        "collection_sort": true,
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": true,
+        "image": "shopify:\/\/shop_images\/IWC-Pilot-Watch-Chronograph-Edition-SFTI-Ref.-IW389004-002.jpg",
+        "image_darken": true,
+        "promo_title": "Wear luxurios watches in style",
+        "promo_text": "<p>Limited edition Watch Collection. <\/p>",
+        "banner_height": "small",
+        "align_height": true,
+        "collection_height": 400,
+        "products_per_row": 3,
+        "mobile_products_per_row": "2",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
