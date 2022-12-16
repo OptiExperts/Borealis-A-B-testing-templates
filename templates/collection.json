@@ -9,15 +9,28 @@
             "promo_background": "#EEEEEE",
             "promo_text": "#000000",
             "promo_image": "shopify:\/\/shop_images\/2568978004.webp",
-            "richtext": "<p>Use this area for promotional information.<\/p>",
+            "richtext": "<p>Deal of the New year 10% off<\/p>",
             "promo_link": "shopify:\/\/products\/borealis-bull-shark-v2-black-dial-red-ceramic-bezel-snow-flake-hands-date-miyota-9015",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        },
+        "a3ab0835-2970-42b3-9b25-22a80431a6db": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#EEEEEE",
+            "promo_text": "#000000",
+            "promo_image": "shopify:\/\/shop_images\/final_74.jpg",
+            "richtext": "<p>X MAS Discount 20% Flat off<\/p>",
+            "promo_link": "shopify:\/\/products\/borealis-vulcanized-rubber-strap-20mm-green",
             "button_label": "Shop now",
             "button_style": "button--primary"
           }
         }
       },
       "block_order": [
-        "f95b8911-7288-4e7c-af25-7d7430144f48"
+        "f95b8911-7288-4e7c-af25-7d7430144f48",
+        "a3ab0835-2970-42b3-9b25-22a80431a6db"
       ],
       "settings": {
         "collection_breadcrumb": true,
