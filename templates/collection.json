@@ -3,24 +3,6 @@
     "main": {
       "type": "collection__main",
       "blocks": {
-        "184a8dd9-eb30-4d67-a246-519bba700355": {
-          "type": "menu",
-          "settings": {
-            "menu": ""
-          }
-        },
-        "503eb36a-334d-4f41-8371-1769880a88d1": {
-          "type": "menu",
-          "settings": {
-            "menu": ""
-          }
-        },
-        "81d8f431-4826-4aee-9d13-e1fca79d17ab": {
-          "type": "collection_list",
-          "settings": {
-            "title": "Collections"
-          }
-        },
         "f95b8911-7288-4e7c-af25-7d7430144f48": {
           "type": "featured_promo",
           "settings": {
@@ -35,16 +17,13 @@
         }
       },
       "block_order": [
-        "184a8dd9-eb30-4d67-a246-519bba700355",
-        "503eb36a-334d-4f41-8371-1769880a88d1",
-        "81d8f431-4826-4aee-9d13-e1fca79d17ab",
         "f95b8911-7288-4e7c-af25-7d7430144f48"
       ],
       "settings": {
         "collection_breadcrumb": true,
         "collection_tags": true,
         "collection_sort": true,
-        "show_sidebar": false,
+        "show_sidebar": true,
         "sidebar_position": "left",
         "show_promo_banner": true,
         "image": "shopify:\/\/shop_images\/IWC-Pilot-Watch-Chronograph-Edition-SFTI-Ref.-IW389004-002.jpg",
