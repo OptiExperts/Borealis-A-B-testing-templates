@@ -12001,6 +12001,7 @@ shopify-payment-terms {
 }
 .product-image__wrapper:hover .thumbnail-overlay__container {
   display: flex;
+  justify-content: flex-end;
 }
 .product-image__wrapper:hover .thumbnail-overlay__container .quick-shop__buttons,
 .product-image__wrapper:hover .thumbnail-overlay__container .quick-shop__info {
