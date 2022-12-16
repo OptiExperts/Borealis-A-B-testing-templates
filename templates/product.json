@@ -24,10 +24,17 @@
             "button_label": "Shop now",
             "button_style": "button--primary"
           }
+        },
+        "db153665-672a-4c52-b02b-07ea24ce0f53": {
+          "type": "page",
+          "settings": {
+            "page": "your-wish-list"
+          }
         }
       },
       "block_order": [
-        "0947b2c1-2221-4446-938b-98767b68454a"
+        "0947b2c1-2221-4446-938b-98767b68454a",
+        "db153665-672a-4c52-b02b-07ea24ce0f53"
       ],
       "settings": {
         "padding_top": 20,
