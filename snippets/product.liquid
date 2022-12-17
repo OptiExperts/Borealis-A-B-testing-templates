@@ -27,16 +27,16 @@
   class='
   product_section
   js-product_section
-                      container
-                      is-justify-space-between
-                      has-padding-bottom{% if product_images_position == 'right' %}
+                        container
+                        is-justify-space-between
+                        has-padding-bottom{% if product_images_position == 'right' %}
     is-flex-row-reverse
   {% endif %}'>
 
   <div class="product__images
-                                            one-half
-                                            column
-                                            medium-down--one-whole">
+                                                  one-half
+                                                  column
+                                                  medium-down--one-whole">
     {% if section_onboarding %}
       <div class="featured-product__images">
         {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--product' }}
@@ -59,10 +59,10 @@
   </div>
 
   <div class="product__information
-                                            has-product-sticker
-                                            one-half
-                                            column
-                                            medium-down--one-whole">
+                                                  has-product-sticker
+                                                  one-half
+                                                  column
+                                                  medium-down--one-whole">
 
     {% comment %} Sale sticker {% endcomment %}
     {% if stickers_enabled %}
@@ -76,12 +76,12 @@
 
     {%- for block in section.blocks -%}
       <div class="
-                                                  product-block
-                                                  product-block--{{ block.type | downcase | replace: '_', '-' }}
-                                                  {% if forloop.first == true %}
-                                                    product-block--first
-                                                  {% endif %}
-                                                " {{ block.shopify_attributes }}>
+                                                          product-block
+                                                          product-block--{{ block.type | downcase | replace: '_', '-' }}
+                                                          {% if forloop.first == true %}
+                                                            product-block--first
+                                                          {% endif %}
+                                                        " {{ block.shopify_attributes }}>
         {%- if block.type == 'vendor' -%}
           {% comment %} Vendor {% endcomment %}
           <p class="vendor">
@@ -356,14 +356,14 @@
 <!--Start tab labels-->
 <ul class="tabs">
   <li>
-    <a class="" href="#tab1">
+    <a class="active" href="#tab1">
 
       {{ section.settings.custom_tab1 }}
 
     </a>
   </li>
   <li>
-    <a href="#tab2" class="active">
+    <a href="#tab2" class="">
 
       {{ section.settings.custom_tab2 }}
 
