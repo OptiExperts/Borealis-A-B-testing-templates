@@ -9764,8 +9764,8 @@ ul.tabs a {
   vertical-align: top;
 }
 ul.tabs a:hover {
-  border-bottom-color: hsl(0deg, 0%, 21%);
-  color: hsl(0deg, 0%, 21%);
+  background-color: black !important;
+    color: white !important;
 }
 ul.tabs li {
   display: block;
