@@ -258,12 +258,7 @@
           {% else %}
             {% if product.description != blank %}
               <div
-                class="
-                  description
-                  content
-                  has-padding-top
-                "
-              >
+                class="description content has-padding-top">
                 {% if is_product_modal %}
                   {% if block.settings.truncate_words %}
                     {{ product.description | strip_html | truncatewords: block.settings.truncate_words_limit | replace: 'Description', '' | replace: 'Dimensions', '' | replace: 'Details', '' | replace: 'Specs', '' | replace: 'Shipping', '' | replace: 'Size', '' | escape | split: '<!-- split -->' | first }}
