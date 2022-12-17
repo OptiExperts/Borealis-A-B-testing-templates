@@ -1516,7 +1516,9 @@ window.PXUTheme.tabs = {
       // toggle corresponding tab content
       $tabContent.children('li, li a').removeClass('is-active active');
       $tabContent.children('li, li a').eq($tabIndex).addClass('is-active').show().css({
-        'display': 'block'
+        'display': 'block',
+        'background-color': 'black',
+        'color': 'white'
       }).siblings().hide().removeClass('is-active');
     });
   },
