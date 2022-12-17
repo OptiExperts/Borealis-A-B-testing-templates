@@ -16,7 +16,7 @@
         "0947b2c1-2221-4446-938b-98767b68454a": {
           "type": "featured_promo",
           "settings": {
-            "promo_background": "#EEEEEE",
+            "promo_background": "#eeeeee",
             "promo_text": "#000000",
             "promo_image": "shopify:\/\/shop_images\/IWC-Pilot-Watch-Chronograph-Edition-SFTI-Ref.-IW389004-002.jpg",
             "richtext": "<p>New year sale 50% flat off on all straps<\/p>",
@@ -93,7 +93,13 @@
         "padding_bottom": 20,
         "animation": "none",
         "css_class": "",
-        "custom_css": ""
+        "custom_css": "",
+        "custom_tab1": "Description",
+        "custom_tab1_text": "",
+        "custom_tab2": "Delivery",
+        "custom_tab2_text": "Here we have the text for delivery",
+        "custom_tab3": "Reviews",
+        "custom_tab3_text": ""
       }
     }
   },
