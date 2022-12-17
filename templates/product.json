@@ -67,13 +67,19 @@
           "type": "description",
           "settings": {
           }
+        },
+        "600e515d-ff6f-469f-a9bc-894090525f12": {
+          "type": "rating",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "price",
         "form",
-        "description"
+        "description",
+        "600e515d-ff6f-469f-a9bc-894090525f12"
       ],
       "settings": {
         "product_images_position": "left",
