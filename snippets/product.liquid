@@ -328,7 +328,7 @@
 </div>
 
 {% comment %} Product Pages Tabs {% endcomment %}
-
+{% if template contains 'products' %}
 <!--Start tab labels-->
 <ul class="tabs">
   <li>
@@ -434,7 +434,7 @@
     </div>
   </li>
 </ul>
-
+{% endif %}
 {% comment %} Product Pages Tabs {% endcomment %}
 <style>
   li.active a {
