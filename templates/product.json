@@ -94,11 +94,11 @@
         "animation": "none",
         "css_class": "",
         "custom_css": "",
-        "custom_tab1": "Description",
+        "custom_tab1": "PRODUCT DESCRIPTION",
         "custom_tab1_text": "",
-        "custom_tab2": "Delivery",
+        "custom_tab2": "SHIPPING DETAILS",
         "custom_tab2_text": "Here we have the text for delivery",
-        "custom_tab3": "Reviews",
+        "custom_tab3": "REVIEWS",
         "custom_tab3_text": ""
       }
     }
