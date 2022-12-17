@@ -1509,7 +1509,7 @@ window.PXUTheme.tabs = {
 
       // toggle active tab
       $tabs.removeClass('is-active active');
-      $(this).addClass('is-active active');
+      $(this).addClass('is-active');
       let $tabIndex = $(this).index();
       let $tabContent = $(this).parents('.tabs').next('.tabs-content');
 
