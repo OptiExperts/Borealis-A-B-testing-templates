@@ -1509,13 +1509,13 @@ window.PXUTheme.tabs = {
 
       // toggle active tab
       $tabs.removeClass('is-active active');
-      $(this).addClass('is-active');
+      $(this).addClass('is-active active');
       let $tabIndex = $(this).index();
       let $tabContent = $(this).parents('.tabs').next('.tabs-content');
 
       // toggle corresponding tab content
       $tabContent.children('li, li a').removeClass('is-active active');
-      $tabContent.children('li, li a').eq($tabIndex).addClass('is-active').show().css({
+      $tabContent.children('li, li a').eq($tabIndex).addClass('is-active active').show().css({
         'display': 'block'
       }).siblings().hide().removeClass('is-active');
     });
