@@ -345,6 +345,23 @@
     <a href="#tab3" class="">
       {{ section.settings.custom_tab3 }}
     </a>
+  </{% if template contains 'products' %}
+<!--Start tab labels-->
+<ul class="tabs">
+  <li>
+    <a class="active" href="#tab1">
+      {{ section.settings.custom_tab1 }}
+    </a>
+  </li>
+  <li>
+    <a href="#tab2" class="">
+      {{ section.settings.custom_tab2 }}
+    </a>
+  </li>
+  <li>
+    <a href="#tab3" class="">
+      {{ section.settings.custom_tab3 }}
+    </a>
   </li>
 </ul>
 <!--Start tab content-->
@@ -421,28 +438,20 @@
             <p class="rating__count">
               <span aria-hidden="true">
                 {{ product.metafields.reviews.rating_count }}
-                {% if product.metafields.reviews.rating_count > 1 %}
-                  {{ "general.accessibility.star_reviews_text" | t }}
+                {% if product.metafields.xt" | t }}
                 {% else %}
                   {{ "general.accessibility.star_review_text" | t }}
                 {% endif %}
               </span>
             </p>
-          </div>
-        {% endif %}
-      </p>
-    </div>
-  </li>
-</ul>
-
-{% comment %} Product Pages Tabs {% endcomment %}
-<style>
-  li.active a {
-    background-color: black;
+     .dynamic-sections {
+d-color: black;
     color: white !important;
     border: 2px solid black !important;
   }
-  .dynamic-sections {
-    margin-bottom: 8px;
-  }
-</style>
+  .tabs-content>li.is-active, .tabs-content>li.active {
+    display: block;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+}
+    .dynamic-sections {

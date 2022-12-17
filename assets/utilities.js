@@ -1516,10 +1516,7 @@ window.PXUTheme.tabs = {
       // toggle corresponding tab content
       $tabContent.children('li, li a').removeClass('is-active active');
       $tabContent.children('li, li a').eq($tabIndex).addClass('is-active').show().css({
-        'display': 'block'
-      }).siblings().hide().removeClass('is-active');
-    });
-  },
+        'display': 'block'  },
   unload: function () {
     $('.tabs li, .tabs li a').off();
   }
@@ -1555,8 +1552,10 @@ class ProductCard {
         }
       });
       $('body').on('mouseleave', '.has-secondary-image-swap', _ref3 => {
-        let {
-          currentTarget
+               'display': 'block',
+        'background-color': 'black',
+        'color': 'white'
+et
         } = _ref3;
         const $thumbnailImage = $(currentTarget).find('.product-image__wrapper img');
         const $thumbnailVideo = $(currentTarget).find('.product-image__wrapper .video-on-hover');
