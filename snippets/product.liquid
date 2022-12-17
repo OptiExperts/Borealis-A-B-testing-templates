@@ -371,6 +371,7 @@
     </a>
   </li>
 </ul>
+{% if template contains 'products' %}
 <!--Start tab content-->
 <ul class="tabs-content">
   <li
@@ -434,7 +435,7 @@
     </div>
   </li>
 </ul>
-
+{% endif %}
 {% comment %} Product Pages Tabs {% endcomment %}
 <style>
   li.active a {
