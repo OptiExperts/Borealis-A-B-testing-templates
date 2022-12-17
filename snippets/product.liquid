@@ -27,28 +27,16 @@
   class='
   product_section
   js-product_section
-<<<<<<< HEAD
-                                container
-                                is-justify-space-between
-                                has-padding-bottom{% if product_images_position == 'right' %}
-=======
                           container
                           is-justify-space-between
                           has-padding-bottom{% if product_images_position == 'right' %}
->>>>>>> 3332ee425fa3bc0784d02476f9a0cf4a80f404a5
     is-flex-row-reverse
   {% endif %}'>
 
   <div class="product__images
-<<<<<<< HEAD
-                                                                          one-half
-                                                                          column
-                                                                          medium-down--one-whole">
-=======
-                                                        one-half
-                                                        column
-                                                        medium-down--one-whole">
->>>>>>> 3332ee425fa3bc0784d02476f9a0cf4a80f404a5
+                                                            one-half
+                                                            column
+                                                            medium-down--one-whole">
     {% if section_onboarding %}
       <div class="featured-product__images">
         {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--product' }}
@@ -71,17 +59,10 @@
   </div>
 
   <div class="product__information
-<<<<<<< HEAD
-                                                                          has-product-sticker
-                                                                          one-half
-                                                                          column
-                                                                          medium-down--one-whole">
-=======
-                                                        has-product-sticker
-                                                        one-half
-                                                        column
-                                                        medium-down--one-whole">
->>>>>>> 3332ee425fa3bc0784d02476f9a0cf4a80f404a5
+                                                            has-product-sticker
+                                                            one-half
+                                                            column
+                                                            medium-down--one-whole">
 
     {% comment %} Sale sticker {% endcomment %}
     {% if stickers_enabled %}
@@ -95,21 +76,12 @@
 
     {%- for block in section.blocks -%}
       <div class="
-<<<<<<< HEAD
-                                                                                          product-block
-                                                                                          product-block--{{ block.type | downcase | replace: '_', '-' }}
-                                                                                          {% if forloop.first == true %}
-                                                                                            product-block--first
-                                                                                          {% endif %}
-                                                                                        " {{ block.shopify_attributes }}>
-=======
-                                                                  product-block
-                                                                  product-block--{{ block.type | downcase | replace: '_', '-' }}
-                                                                  {% if forloop.first == true %}
-                                                                    product-block--first
-                                                                  {% endif %}
-                                                                " {{ block.shopify_attributes }}>
->>>>>>> 3332ee425fa3bc0784d02476f9a0cf4a80f404a5
+                                                                        product-block
+                                                                        product-block--{{ block.type | downcase | replace: '_', '-' }}
+                                                                        {% if forloop.first == true %}
+                                                                          product-block--first
+                                                                        {% endif %}
+                                                                      " {{ block.shopify_attributes }}>
         {%- if block.type == 'vendor' -%}
           {% comment %} Vendor {% endcomment %}
           <p class="vendor">
